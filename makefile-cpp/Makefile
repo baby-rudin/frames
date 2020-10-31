@@ -1,8 +1,11 @@
+# program name
 TARGET	= makefile-cpp
+
 
 CC 		= g++
 CFLAGS	= -std=c++11 -O3 -Wall
-LFLAGS	= -std=c++11 -O3 -Wall -I. -lm
+LFLAGS	= -std=c++11 -O3 -Wall
+
 
 SRC_DIR	= src
 OBJ_DIR	= obj
